@@ -1,0 +1,11 @@
+extends layout
+block content
+    .container
+        .row
+            .col-md-3
+                form(role='form')
+                    .form-group
+                        label(for='email') Add Module
+                        input#email.form-control(type='text')
+                    button.btn.btn-default(type='submit') Add
+
